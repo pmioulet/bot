@@ -12,3 +12,4 @@ known_hosts
 .factorypath
 dependency-reduced-pom.xml
 **/playbook.retry
+*.json
