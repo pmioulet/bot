@@ -1,0 +1,14 @@
+.idea/*
+*.iml
+target/*
+/target/
+/.settings/
+/.classpath
+/.project
+.DS_Store
+/node_modules
+known_hosts
+.env
+.factorypath
+dependency-reduced-pom.xml
+**/playbook.retry
