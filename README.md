@@ -13,9 +13,11 @@ Dans ce billet, nous allons intégrer Dialogflow en utilisant l'api Java. Le cas
 Première étape, on créé un bot simple sur Dialogflow. A l'aide de son compte google on se connecte [ici](https://console.dialogflow.com/api-client/#/login) en autorisant les accès que Dialogflow réclame sur son compte.
 
 Ensuite, on instancie un agent. Un intent permet à Dialogflow d'associer une phrase en langage naturel à une intention. La création des intents n'est pas le but de ce billet, nous allons sauter cette étape en utilisant une série d'intents fournie par Google. Cela nous permettra de converser avec notre bot.
+
 ![Agent-Creation](src/main/img/02-Agent-smalltalk.gif?raw=true "Agent-Creation")
 
 On teste ce petit agent préconfiguré dans l'interface:
+
 ![Agent-Test](src/main/img/03-Agent-test.gif?raw=true "Agent-Test")
 
 ## Création d'un projet java
